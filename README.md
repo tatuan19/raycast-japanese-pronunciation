@@ -1,4 +1,6 @@
 # Japanese Pronunciation
+[![CI](https://github.com/tatuan19/raycast-japanese-pronunciation/actions/workflows/ci.yml/badge.svg)](https://github.com/tatuan19/raycast-japanese-pronunciation/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
 Japanese Pronunciation is a Raycast extension for converting Japanese text into hiragana and katakana pronunciation. It is aimed at quick lookup for single words, kanji compounds, and short sentences directly from the Raycast command bar.
 
@@ -28,33 +30,28 @@ Japanese Pronunciation is a Raycast extension for converting Japanese text into 
 - `食べる` -> `たべる` / `タベル`
 - `日本語を勉強します` -> `にほんごをべんきょうします` / `ニホンゴヲベンキョウシマス`
 
-## Repository Status
+## Use Cases
 
-- This repository is prepared for public GitHub publishing.
-- The Raycast manifest `author` value is still temporary and must be replaced with your real Raycast handle before publishing to the Raycast Store.
+- Check the reading of a kanji compound quickly.
+- Convert a short Japanese sentence into kana for study or pronunciation reference.
+- Copy hiragana or katakana output into notes, flashcards, or other apps.
 
-## Local Development
+## Install For Development
 
-```bash
-npm install
-npm run dev
-```
+1. Clone this repository.
+2. Install dependencies with `npm install`.
+3. Start Raycast development mode with `npm run dev`.
 
-Useful checks:
+## Commands
 
-```bash
-npm run lint
-npm run build
-```
+- `npm run dev`
+- `npm run lint`
+- `npm run build`
 
-## Publish To GitHub
+## Raycast Store Status
 
-```bash
-git init
-git add .
-git commit -m "feat: add initial Raycast Japanese kana converter"
-gh repo create tatuan19/raycast-japanese-pronunciation --public --source=. --remote=origin --push
-```
+- This repository is public on GitHub.
+- The Raycast manifest `author` value is still temporary and must be replaced with your real Raycast handle before any Raycast Store submission.
 
 ## Notes Before Publishing
 
