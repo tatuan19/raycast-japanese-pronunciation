@@ -3,7 +3,7 @@
   "title": "Japanese Pronunciation",
   "description": "Convert Japanese words, kanji, or short sentences into hiragana and katakana pronunciation from Raycast.",
   "icon": "icon.png",
-  "author": "colbyfayock",
+  "author": "tatuan19",
   "repository": {
     "type": "git",
     "url": "https://github.com/tatuan19/raycast-japanese-pronunciation.git"
