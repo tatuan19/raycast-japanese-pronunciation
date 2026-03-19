@@ -12,8 +12,19 @@
   "bugs": {
     "url": "https://github.com/tatuan19/raycast-japanese-pronunciation/issues"
   },
+  "platforms": [
+    "macOS"
+  ],
   "categories": [
     "Productivity"
+  ],
+  "keywords": [
+    "japanese",
+    "pronunciation",
+    "kana",
+    "hiragana",
+    "katakana",
+    "language-learning"
   ],
   "license": "MIT",
   "commands": [
@@ -26,10 +37,10 @@
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.102.7",
+    "@raycast/api": "^1.104.10",
+    "kuromoji": "^0.1.2",
     "kuroshiro": "^1.2.0",
-    "kuroshiro-analyzer-kuromoji": "^1.1.0",
-    "kuromoji": "^0.1.2"
+    "kuroshiro-analyzer-kuromoji": "^1.1.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "latest",

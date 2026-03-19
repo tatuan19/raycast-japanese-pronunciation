@@ -1,4 +1,5 @@
 # Japanese Pronunciation
+
 [![CI](https://github.com/tatuan19/raycast-japanese-pronunciation/actions/workflows/ci.yml/badge.svg)](https://github.com/tatuan19/raycast-japanese-pronunciation/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 
@@ -57,3 +58,10 @@ Japanese Pronunciation is a Raycast extension for converting Japanese text into 
 
 - The `author` field in `package.json` is temporarily set to a public Raycast handle so local validation can pass. Replace it with your own Raycast author handle before publishing.
 - The first conversion initializes the kuromoji dictionary, so the first lookup may be slightly slower than later ones.
+
+## Submission Checklist
+
+- Replace `author` in `package.json` with your real Raycast handle.
+- Confirm `npm run lint` and `npm run build` both pass locally.
+- Confirm the public GitHub repository is up to date.
+- Run `npm run publish` from the extension directory when you are ready to submit to Raycast.
