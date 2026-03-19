@@ -1,12 +1,12 @@
-# Japanese Kana Converter
+# Japanese Pronunciation
 
-Japanese Kana Converter is a Raycast extension for converting Japanese text into hiragana and katakana. It is aimed at quick lookup for single words, kanji compounds, and short sentences directly from the Raycast command bar.
+Japanese Pronunciation is a Raycast extension for converting Japanese text into hiragana and katakana pronunciation. It is aimed at quick lookup for single words, kanji compounds, and short sentences directly from the Raycast command bar.
 
 ## Features
 
 - Convert Japanese input directly from the Raycast search bar.
 - Support kanji, mixed kana, and short Japanese sentences.
-- Show both hiragana and katakana results at the same time.
+- Show both hiragana and katakana pronunciation at the same time.
 - Copy either output with one action.
 
 ## Current Scope
@@ -53,7 +53,7 @@ npm run build
 git init
 git add .
 git commit -m "feat: add initial Raycast Japanese kana converter"
-gh repo create tatuan19/raycast-japanese-kana-converter --public --source=. --remote=origin --push
+gh repo create tatuan19/raycast-japanese-pronunciation --public --source=. --remote=origin --push
 ```
 
 ## Notes Before Publishing

@@ -1,16 +1,16 @@
 {
-  "name": "raycast-japanese-kana-converter",
-  "title": "Japanese Kana Converter",
-  "description": "Convert Japanese words, kanji, or short sentences into hiragana and katakana from Raycast.",
+  "name": "raycast-japanese-pronunciation",
+  "title": "Japanese Pronunciation",
+  "description": "Convert Japanese words, kanji, or short sentences into hiragana and katakana pronunciation from Raycast.",
   "icon": "icon.png",
   "author": "colbyfayock",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tatuan19/raycast-japanese-kana-converter.git"
+    "url": "https://github.com/tatuan19/raycast-japanese-pronunciation.git"
   },
-  "homepage": "https://github.com/tatuan19/raycast-japanese-kana-converter",
+  "homepage": "https://github.com/tatuan19/raycast-japanese-pronunciation",
   "bugs": {
-    "url": "https://github.com/tatuan19/raycast-japanese-kana-converter/issues"
+    "url": "https://github.com/tatuan19/raycast-japanese-pronunciation/issues"
   },
   "categories": [
     "Productivity"
